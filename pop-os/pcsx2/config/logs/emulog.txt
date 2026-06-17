@@ -1,0 +1,121 @@
+[    0.1179] Loaded translation file for language en-US
+[    0.1186] PCSX2 v2.6.3
+[    0.1186] Savestate version: 0x9a550000
+[    0.1186] 
+[    0.1186] 
+[    0.1186] Host Machine Init:
+[    0.1202]   Operating System = KDE Flatpak runtime 6.10
+[    0.1202]   Available RAM    = 15206 MB (14.85 GB)
+[    0.1202]   Physical RAM     = 28799 MB (28.12 GB)
+[    0.1202] 
+[    0.1202]   Processor        = AMD Ryzen 9 6900HX with
+[    0.1202]   Core Count       = 8 cores
+[    0.1202]   Thread Count     = 16 threads
+[    0.1202]   Cluster Count    = 1 clusters
+[    0.1202] CPU Extensions Detected:
+[    0.1202]   AVX AVX2
+[    0.1202] 
+[    0.1241] SDLInputSource: Using Controller DB from resources.
+[    0.2130] Scanning /home/kosmos/openclaw-repo (recursively)
+[    0.2300] SDLInputSource: 722 gamepad mappings are loaded.
+[    0.2303] Invalid binding: 'SDL-1/Y'
+[    0.2303] Invalid binding: 'SDL-1/B'
+[    0.2303] Invalid binding: 'SDL-1/A'
+[    0.2303] Invalid binding: 'SDL-1/X'
+[    0.3255] SDLInputSource: Gamepad 1 inserted
+[    0.3257] SDLInputSource: Opened gamepad 1 (instance id 1, player id 0): 8BitDo Pro 3
+[    0.3257] SDLInputSource: Gamepad 0 has 6 axes and 24 buttons
+[    0.3257] SDLInputSource: Rumble is supported on '8BitDo Pro 3' via gamepad
+[    0.3941] Loading BIOS...
+[    0.3946] BIOS Found: USA     v01.10(27/07/2000)  Console 20000727-013725
+[    0.4004] BIOS rom1 module not found, skipping...
+[    0.4004] BIOS rom2 module not found, skipping...
+[    0.4012] Opening CDVD...
+[    0.4112] isoFile open ok: /home/kosmos/ROMs/ps2/Zone of the Enders.chd
+[    0.4112]   Image type  = CD
+[    0.4112]  * CDVD Disk Open: DVD, Single layer or unknown:
+[    0.4112]  * * Track 1: Data (Mode 1) (1885168 sectors)
+[    0.4679] GameDB: Has not been initialized yet, initializing...
+[    0.5144] GameDB: 12838 games on record (loaded in 46.41ms)
+[    0.5144] Disc changed to Zone of the Enders.chd.
+[    0.5144]   Name: Zone of the Enders
+[    0.5144]   Serial: SLES-50111
+[    0.5144]   Version: 1.00
+[    0.5144]   CRC: 9B4A6446
+[    0.5144] Applying settings...
+[    0.5147] Invalid binding: 'SDL-1/Y'
+[    0.5147] Invalid binding: 'SDL-1/B'
+[    0.5147] Invalid binding: 'SDL-1/A'
+[    0.5147] Invalid binding: 'SDL-1/X'
+[    0.5196] Reopening memory cards...
+[    0.5198] McdSlot 0 [File]: Mcd001.ps2 [8 MB, UNFORMATTED]
+[    0.5200] McdSlot 1 [File]: Mcd002.ps2 [8 MB, UNFORMATTED]
+[    0.5209] HLE Host: Set 'host:' root path to: /home/kosmos/ROMs/ps2
+[    0.5209] 
+[    0.5210] EE/iR5900 Recompiler Reset
+[    0.7721] Opening GS...
+[    0.7937] Using Vulkan GPU 'AMD Radeon Graphics (RADV REMBRANDT)' for automatic renderer check.
+[    0.7937] Allowing Vulkan as default renderer.
+[    0.7944] Surface refresh rate: 60 hz
+[    0.8148] No GPU requested, using first (AMD Radeon Graphics (RADV REMBRANDT))
+[    0.8154] VK_EXT_provoking_vertex is supported
+[    0.8154] VK_EXT_memory_budget is supported
+[    0.8154] VK_EXT_calibrated_timestamps is supported
+[    0.8154] VK_EXT_rasterization_order_attachment_access is NOT supported
+[    0.8154] VK_KHR_swapchain_maintenance1 is supported
+[    0.8154] VK_EXT_full_screen_exclusive is NOT supported
+[    0.8154] VK_KHR_driver_properties is supported
+[    0.8154] VK_EXT_attachment_feedback_loop_layout is supported
+[    0.8183] Read 175 entries from '/home/kosmos/.var/app/net.pcsx2.PCSX2/config/PCSX2/cache/vulkan_shaders.idx'
+[    0.8207] Immediate not supported for vsync-disabled, using mailbox.
+[    0.9361] Vulkan Graphics Driver Info:
+[    0.9361] Driver 26.0.6
+[    0.9361] Vulkan 1.4.335
+[    0.9361] Conformance Version 1.4.0.0
+[    0.9361] Mesa 26.0.6 (git-0e095aab43)
+[    0.9361] radv
+[    0.9361] AMD Radeon Graphics (RADV REMBRANDT)
+[    0.9395] Opening SPU2...
+[    0.9404] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[    0.9475] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[    0.9582] Initializing Pad...
+[    0.9582] Initializing SIO2...
+[    0.9582] Initializing SIO0...
+[    0.9583] Opening DEV9...
+[    0.9616] Opening USB...
+[    0.9616] Opening FW...
+[    0.9661] VM subsystems initialized in 574.30 ms
+[    1.2393] ELF Loading: cdrom0:\SLES_501.11;1, Game CRC = 9B4A6446, EntryPoint = 0x00200008
+[    2.7347] ELF cdrom0:\SLES_501.11;1 with entry point at 0x00200008 is executing.
+[    2.7348] ELF changed, active CRC 9B4A6446 (cdrom0:\SLES_501.11;1)
+[    2.7351] Applying core settings...
+[    2.7353] GameDB: Enabled GS Hardware Fix: gpuPaletteConversion to [mode=2]
+[    2.7353] GameDB: Enabled GS Hardware Fix: deinterlace to [mode=5]
+[    2.7353] Updating CPU configuration...
+[    2.7437] Updating GS configuration...
+[    2.7649] EE/iR5900 Recompiler Reset
+[    2.7825] UpdateVSyncRate: Mode Changed to NTSC.
+[    2.7827] UpdateVSyncRate: Mode Changed to PAL.
+[    2.7827] UpdateVSyncRate: Mode Changed to PAL.
+[    4.3542] Pad: DS2 Config Finished - P1/S1 - AL: Off - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.3542] Pad: DS2 Config Finished - P2/S1 - AL: Off - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.5742] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.5742] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.8143] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.8143] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[    4.9744] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[    4.9744] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[    5.3142] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[    5.3143] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[    5.5543] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[    5.5543] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   34.3576] BIOS Found: USA     v01.10(27/07/2000)  Console 20000727-013725
+[  147.3546] BIOS Found: USA     v01.10(27/07/2000)  Console 20000727-013725
+[  147.3741] (VMManager) Pausing...
+[  155.2647] Add 146 seconds play time to SLES-50111 -> now 225
+[  155.4347] Skipping updating pipeline cache '/home/kosmos/.var/app/net.pcsx2.PCSX2/config/PCSX2/cache/vulkan_pipelines.bin' due to no changes.
+[  155.4392] Invalid binding: 'SDL-1/Y'
+[  155.4392] Invalid binding: 'SDL-1/B'
+[  155.4392] Invalid binding: 'SDL-1/A'
+[  155.4392] Invalid binding: 'SDL-1/X'
+[  155.4983] Releasing host memory for virtual systems...
