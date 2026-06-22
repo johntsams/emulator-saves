@@ -67,7 +67,7 @@
     "dayTime": 32768,
     "deaths": 0,
     "dogParams": 0,
-    "entranceIndex": 187,
+    "entranceIndex": 529,
     "equips": {
      "buttonItems": [
       255,
@@ -150,7 +150,7 @@
      "scene": 81
     },
     "infTable": [
-     0,
+     3,
      0,
      0,
      0,
@@ -289,7 +289,7 @@
     "magic": 0,
     "magicLevel": 0,
     "maskMemory": 0,
-    "naviTimer": 12,
+    "naviTimer": 302,
     "nightFlag": 0,
     "ocarinaGameRoundNum": 0,
     "playerName": [
@@ -434,7 +434,7 @@
      0
     ],
     "rupees": 0,
-    "savedSceneNum": 52,
+    "savedSceneNum": 85,
     "scarecrowLongSong": [
      {
       "noteIdx": 0,
@@ -2678,7 +2678,7 @@
     "swordHealth": 0,
     "totalDays": 0,
     "unk_54": 0,
-    "worldMapAreaData": 0
+    "worldMapAreaData": 16
    },
    "version": 4
   },
@@ -2772,29 +2772,29 @@
      0,
      0,
      0,
-     38,
-     10,
+     55,
+     11,
      1,
      1,
      1,
      6,
-     1,
+     2,
      2,
      10,
      0,
      0,
      0,
      0,
-     3,
-     0,
-     0,
+     6,
      0,
      0,
      0,
      0,
      0,
      1,
-     2,
+     0,
+     3,
+     35,
      0,
      0,
      0,
@@ -3110,8 +3110,8 @@
      0,
      0
     ],
-    "pauseTimer": 189,
-    "playTimer": 45414,
+    "pauseTimer": 306,
+    "playTimer": 50510,
     "rtaTiming": false,
     "sceneTimestamps": [
      {
@@ -3148,6 +3148,20 @@
       "roomTime": 307,
       "scene": 85,
       "sceneTime": 21276
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 39,
+      "scene": 81,
+      "sceneTime": 39
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 1400,
+      "scene": 52,
+      "sceneTime": 1400
      }
     ],
     "scenesDiscovered": [
@@ -3156,7 +3170,7 @@
      0,
      0
     ],
-    "tsIdx": 5
+    "tsIdx": 7
    },
    "version": 1
   },
