@@ -67,10 +67,10 @@
     "dayTime": 32768,
     "deaths": 0,
     "dogParams": 0,
-    "entranceIndex": 529,
+    "entranceIndex": 187,
     "equips": {
      "buttonItems": [
-      59,
+      255,
       255,
       255,
       255,
@@ -88,7 +88,7 @@
       255,
       255
      ],
-     "equipment": 4353
+     "equipment": 4352
     },
     "eventChkInf": [
      0,
@@ -150,7 +150,6 @@
      "scene": 81
     },
     "infTable": [
-     3,
      0,
      0,
      0,
@@ -161,7 +160,8 @@
      0,
      0,
      0,
-     128,
+     0,
+     0,
      0,
      0,
      0,
@@ -244,7 +244,7 @@
       -1,
       -1
      ],
-     "equipment": 4353,
+     "equipment": 4352,
      "gsTokens": 0,
      "items": [
       255,
@@ -289,7 +289,7 @@
     "magic": 0,
     "magicLevel": 0,
     "maskMemory": 0,
-    "naviTimer": 5458,
+    "naviTimer": 12,
     "nightFlag": 0,
     "ocarinaGameRoundNum": 0,
     "playerName": [
@@ -433,8 +433,8 @@
      0,
      0
     ],
-    "rupees": 31,
-    "savedSceneNum": 85,
+    "rupees": 0,
+    "savedSceneNum": 52,
     "scarecrowLongSong": [
      {
       "noteIdx": 0,
@@ -2324,12 +2324,12 @@
       "unk": 0
      },
      {
-      "chest": 1,
+      "chest": 0,
       "clear": 0,
-      "collect": 163840,
+      "collect": 0,
       "floors": 0,
       "rooms": 0,
-      "swch": 524288,
+      "swch": 0,
       "unk": 0
      },
      {
@@ -2678,7 +2678,7 @@
     "swordHealth": 0,
     "totalDays": 0,
     "unk_54": 0,
-    "worldMapAreaData": 16
+    "worldMapAreaData": 0
    },
    "version": 4
   },
@@ -2772,33 +2772,33 @@
      0,
      0,
      0,
-     148,
-     60,
-     3,
-     4,
-     54,
-     20,
-     5,
+     38,
+     10,
+     1,
+     1,
+     1,
      6,
-     14,
+     1,
      2,
+     10,
      0,
      0,
      0,
-     11,
-     31,
+     0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0,
      1,
-     0,
-     0,
-     22,
-     0,
-     7,
-     458,
-     0,
-     13,
-     32,
      2,
+     0,
+     0,
+     0,
+     0,
      0,
      0
     ],
@@ -2955,7 +2955,6 @@
      0,
      0,
      0,
-     27502,
      0,
      0,
      0,
@@ -3028,8 +3027,9 @@
      0,
      0,
      0,
-     27364,
-     29315,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -3110,8 +3110,8 @@
      0,
      0
     ],
-    "pauseTimer": 5617,
-    "playTimer": 59215,
+    "pauseTimer": 189,
+    "playTimer": 45414,
     "rtaTiming": false,
     "sceneTimestamps": [
      {
@@ -3148,48 +3148,6 @@
       "roomTime": 307,
       "scene": 85,
       "sceneTime": 21276
-     },
-     {
-      "isRoom": 0,
-      "room": 0,
-      "roomTime": 39,
-      "scene": 81,
-      "sceneTime": 39
-     },
-     {
-      "isRoom": 0,
-      "room": 0,
-      "roomTime": 1400,
-      "scene": 52,
-      "sceneTime": 1400
-     },
-     {
-      "isRoom": 0,
-      "room": 0,
-      "roomTime": 236,
-      "scene": 81,
-      "sceneTime": 236
-     },
-     {
-      "isRoom": 0,
-      "room": 0,
-      "roomTime": 1319,
-      "scene": 52,
-      "sceneTime": 1319
-     },
-     {
-      "isRoom": 1,
-      "room": 0,
-      "roomTime": 301,
-      "scene": 85,
-      "sceneTime": 0
-     },
-     {
-      "isRoom": 1,
-      "room": 2,
-      "roomTime": 694,
-      "scene": 85,
-      "sceneTime": 0
      }
     ],
     "scenesDiscovered": [
@@ -3198,20 +3156,14 @@
      0,
      0
     ],
-    "tsIdx": 11
+    "tsIdx": 5
    },
    "version": 1
   },
   "trackerData": {
    "data": {
     "areasSpoiled": 4294967295,
-    "checkStatus": [
-     {
-      "randomizerCheck": 28,
-      "skipped": false,
-      "status": 5
-     }
-    ]
+    "checkStatus": []
    },
    "version": 1
   }
