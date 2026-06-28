@@ -39,7 +39,7 @@
      "tempSwchFlags": 0,
      "yaw": 0
     },
-    "bgsDayCount": 5,
+    "bgsDayCount": 10,
     "bgsFlag": 0,
     "childEquips": {
      "buttonItems": [
@@ -64,45 +64,45 @@
      "equipment": 0
     },
     "cutsceneIndex": 0,
-    "dayTime": 37806,
-    "deaths": 1,
+    "dayTime": 35956,
+    "deaths": 3,
     "dogParams": 0,
-    "entranceIndex": 1099,
+    "entranceIndex": 413,
     "equips": {
      "buttonItems": [
       59,
-      0,
-      35,
-      1,
-      6,
-      7,
       255,
-      255
+      6,
+      1,
+      35,
+      7,
+      2,
+      0
      ],
      "cButtonSlots": [
-      0,
-      23,
-      1,
-      6,
-      7,
       255,
-      255
+      6,
+      1,
+      23,
+      7,
+      2,
+      0
      ],
-     "equipment": 4369
+     "equipment": 4385
     },
     "eventChkInf": [
      4784,
      4221,
-     0,
-     0,
+     40,
+     769,
      16385,
-     512,
+     640,
      32768,
-     1,
+     3,
      0,
      0,
-     363,
-     16,
+     379,
+     529,
      2,
      0
     ],
@@ -122,15 +122,15 @@
      "yaw": 0
     },
     "gsFlags": [
-     10,
+     266,
      0,
      0,
-     0,
+     -2147483648,
      0,
      0
     ],
-    "health": 64,
-    "healthCapacity": 64,
+    "health": 80,
+    "healthCapacity": 80,
     "highScores": [
      0,
      0,
@@ -161,11 +161,11 @@
      2096,
      128,
      0,
-     128,
+     129,
      4288,
      0,
      8,
-     17,
+     4113,
      0,
      0,
      0,
@@ -175,21 +175,21 @@
      0,
      0,
      0,
-     0,
-     1,
+     260,
+     3,
      0,
      0,
      0
     ],
     "inventory": {
      "ammo": [
-      9,
-      14,
+      20,
+      20,
+      20,
       0,
       0,
       0,
-      0,
-      30,
+      38,
       0,
       0,
       0,
@@ -244,12 +244,12 @@
       -1,
       -1
      ],
-     "equipment": 4401,
-     "gsTokens": 2,
+     "equipment": 4385,
+     "gsTokens": 4,
      "items": [
       0,
       1,
-      255,
+      2,
       255,
       255,
       255,
@@ -272,24 +272,24 @@
       255,
       35
      ],
-     "questItems": 8663040,
-     "upgrades": 1196032
+     "questItems": 9203712,
+     "upgrades": 1344072
     },
     "isDoubleDefenseAcquired": 0,
     "isDoubleMagicAcquired": 0,
-    "isMagicAcquired": 0,
+    "isMagicAcquired": 1,
     "isMasterQuest": false,
     "itemGetInf": [
      0,
-     8,
+     8200,
      0,
      0
     ],
     "linkAge": 1,
-    "magic": 0,
-    "magicLevel": 0,
+    "magic": 48,
+    "magicLevel": 1,
     "maskMemory": 0,
-    "naviTimer": 6757,
+    "naviTimer": 14018,
     "nightFlag": 0,
     "ocarinaGameRoundNum": 0,
     "playerName": [
@@ -377,7 +377,7 @@
      0,
      0,
      0,
-     8,
+     24,
      0,
      0,
      0,
@@ -433,8 +433,8 @@
      0,
      0
     ],
-    "rupees": 44,
-    "savedSceneNum": 82,
+    "rupees": 99,
+    "savedSceneNum": 84,
     "scarecrowLongSong": [
      {
       "noteIdx": 0,
@@ -1568,12 +1568,12 @@
       "unk": 0
      },
      {
-      "chest": 0,
+      "chest": 80,
       "clear": 0,
       "collect": 0,
-      "floors": 0,
-      "rooms": 0,
-      "swch": 0,
+      "floors": 192,
+      "rooms": 79807,
+      "swch": 2383432932,
       "unk": 0
      },
      {
@@ -1721,12 +1721,12 @@
       "unk": 0
      },
      {
-      "chest": 0,
-      "clear": 0,
-      "collect": 0,
+      "chest": 1,
+      "clear": 2,
+      "collect": 2147483648,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
+      "swch": 2,
       "unk": 0
      },
      {
@@ -2117,7 +2117,7 @@
       "unk": 0
      },
      {
-      "chest": 0,
+      "chest": 67108864,
       "clear": 0,
       "collect": 0,
       "floors": 0,
@@ -2320,13 +2320,22 @@
       "collect": 0,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
+      "swch": 260,
       "unk": 0
      },
      {
       "chest": 1,
       "clear": 0,
       "collect": 425984,
+      "floors": 0,
+      "rooms": 0,
+      "swch": 2147483648,
+      "unk": 0
+     },
+     {
+      "chest": 0,
+      "clear": 0,
+      "collect": 0,
       "floors": 0,
       "rooms": 0,
       "swch": 2147483648,
@@ -2374,16 +2383,7 @@
       "collect": 0,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
-      "unk": 0
-     },
-     {
-      "chest": 0,
-      "clear": 0,
-      "collect": 0,
-      "floors": 0,
-      "rooms": 0,
-      "swch": 0,
+      "swch": 384,
       "unk": 0
      },
      {
@@ -2425,10 +2425,10 @@
      {
       "chest": 0,
       "clear": 0,
-      "collect": 0,
+      "collect": 1024,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
+      "swch": 1432,
       "unk": 0
      },
      {
@@ -2437,7 +2437,7 @@
       "collect": 0,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
+      "swch": 536870912,
       "unk": 0
      },
      {
@@ -2446,7 +2446,7 @@
       "collect": 0,
       "floors": 0,
       "rooms": 0,
-      "swch": 0,
+      "swch": 134217846,
       "unk": 0
      },
      {
@@ -2676,9 +2676,9 @@
      }
     ],
     "swordHealth": 0,
-    "totalDays": 5,
+    "totalDays": 10,
     "unk_54": 0,
-    "worldMapAreaData": 901139
+    "worldMapAreaData": 1033403
    },
    "version": 4
   },
@@ -2696,25 +2696,25 @@
     "buildVersionPatch": 3,
     "counts": [
      0,
+     1,
+     0,
+     0,
+     1,
      0,
      0,
      0,
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     4,
      0,
      0,
      14,
      0,
      3,
      0,
-     0,
-     0,
+     3,
+     9,
      0,
      0,
      0,
@@ -2727,19 +2727,19 @@
      0,
      0,
      0,
+     5,
+     7,
      0,
      0,
      0,
      0,
+     4,
+     5,
      0,
      0,
+     1,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     1,
      0,
      0,
      0,
@@ -2750,56 +2750,56 @@
      0,
      5,
      2,
-     2,
-     3,
+     4,
+     7,
      0,
      0,
-     18,
-     0,
-     0,
-     0,
-     0,
-     8,
-     0,
-     0,
-     10,
-     0,
-     0,
-     5,
-     10,
-     0,
-     0,
-     20,
-     0,
-     0,
-     1503,
-     910,
-     17,
-     127,
-     745,
-     127,
-     118,
-     117,
-     120,
-     10,
      19,
-     49,
-     11,
-     84,
-     184,
-     140,
-     6,
-     192,
      0,
-     293,
-     3,
-     43,
-     7500,
-     78,
-     70,
-     517,
-     26,
+     0,
+     0,
+     0,
      22,
+     0,
+     0,
+     10,
+     1,
+     0,
+     6,
+     12,
+     22,
+     0,
+     71,
+     0,
+     0,
+     2500,
+     1387,
+     28,
+     198,
+     1625,
+     149,
+     163,
+     264,
+     217,
+     27,
+     20,
+     63,
+     27,
+     105,
+     580,
+     240,
+     10,
+     568,
+     0,
+     692,
+     6,
+     61,
+     17276,
+     134,
+     111,
+     813,
+     30,
+     26,
      0
     ],
     "dungeonKeys": [
@@ -2893,7 +2893,7 @@
     ],
     "fileCreatedAt": 1782142177867,
     "firstInput": 1782144479946,
-    "heartContainers": 1,
+    "heartContainers": 2,
     "heartPieces": 0,
     "itemTimestamps": [
      35535,
@@ -2968,18 +2968,18 @@
      0,
      0,
      0,
+     272322,
      0,
      0,
      0,
      0,
+     304699,
      0,
      0,
+     288152,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     323315,
      0,
      0,
      0,
@@ -2994,7 +2994,7 @@
      0,
      240913,
      248707,
-     0,
+     278345,
      0,
      0,
      0,
@@ -3005,7 +3005,7 @@
      0,
      0,
      163080,
-     0,
+     310344,
      0,
      0,
      0,
@@ -3016,7 +3016,7 @@
      40380,
      38042,
      0,
-     0,
+     314483,
      0,
      0,
      0,
@@ -3038,6 +3038,9 @@
      0,
      37390,
      0,
+     307372,
+     0,
+     314732,
      0,
      0,
      0,
@@ -3045,10 +3048,7 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     271644,
      0,
      0,
      0,
@@ -3057,7 +3057,7 @@
      0,
      0,
      162674,
-     0,
+     309852,
      0,
      0,
      0,
@@ -3110,8 +3110,8 @@
      0,
      0
     ],
-    "pauseTimer": 513098,
-    "playTimer": 181927,
+    "pauseTimer": 522227,
+    "playTimer": 301824,
     "rtaTiming": false,
     "sceneTimestamps": [
      {
@@ -3785,6 +3785,797 @@
       "roomTime": 62,
       "scene": 48,
       "sceneTime": 62
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 167,
+      "scene": 81,
+      "sceneTime": 167
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 470,
+      "scene": 82,
+      "sceneTime": 470
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 1039,
+      "scene": 96,
+      "sceneTime": 1039
+     },
+     {
+      "isRoom": 0,
+      "room": 3,
+      "roomTime": 2130,
+      "scene": 98,
+      "sceneTime": 2130
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 648,
+      "scene": 96,
+      "sceneTime": 648
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 422,
+      "scene": 82,
+      "sceneTime": 422
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 2890,
+      "scene": 81,
+      "sceneTime": 2890
+     },
+     {
+      "isRoom": 0,
+      "room": 5,
+      "roomTime": 53,
+      "scene": 91,
+      "sceneTime": 53
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 245,
+      "scene": 85,
+      "sceneTime": 245
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 74,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 9,
+      "roomTime": 139,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 5,
+      "roomTime": 588,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 9,
+      "roomTime": 69,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 51,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 688,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 76,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 53,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 47,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 328,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 141,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 66,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 83,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 8,
+      "roomTime": 149,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 72,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 82,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 6,
+      "roomTime": 365,
+      "scene": 91,
+      "sceneTime": 3076
+     },
+     {
+      "isRoom": 0,
+      "room": 11,
+      "roomTime": 794,
+      "scene": 62,
+      "sceneTime": 794
+     },
+     {
+      "isRoom": 1,
+      "room": 6,
+      "roomTime": 98,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 365,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 62,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 8,
+      "roomTime": 75,
+      "scene": 91,
+      "sceneTime": 600
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 3228,
+      "scene": 86,
+      "sceneTime": 3228
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 151,
+      "scene": 60,
+      "sceneTime": 151
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 254,
+      "scene": 86,
+      "sceneTime": 254
+     },
+     {
+      "isRoom": 1,
+      "room": 8,
+      "roomTime": 704,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 55,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 76,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 6,
+      "roomTime": 90,
+      "scene": 91,
+      "sceneTime": 926
+     },
+     {
+      "isRoom": 0,
+      "room": 11,
+      "roomTime": 404,
+      "scene": 62,
+      "sceneTime": 404
+     },
+     {
+      "isRoom": 1,
+      "room": 6,
+      "roomTime": 81,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 55,
+      "scene": 91,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 3,
+      "roomTime": 190,
+      "scene": 91,
+      "sceneTime": 327
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 365,
+      "scene": 85,
+      "sceneTime": 365
+     },
+     {
+      "isRoom": 0,
+      "room": 5,
+      "roomTime": 66,
+      "scene": 91,
+      "sceneTime": 66
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 637,
+      "scene": 81,
+      "sceneTime": 637
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 64,
+      "scene": 27,
+      "sceneTime": 64
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 675,
+      "scene": 32,
+      "sceneTime": 675
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 196,
+      "scene": 27,
+      "sceneTime": 196
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 410,
+      "scene": 81,
+      "sceneTime": 410
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 398,
+      "scene": 82,
+      "sceneTime": 398
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 675,
+      "scene": 96,
+      "sceneTime": 675
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 1091,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 431,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 767,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 1318,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 1517,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 44,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 38,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 70,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 44,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 94,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 40,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 293,
+      "scene": 98,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 3,
+      "roomTime": 868,
+      "scene": 98,
+      "sceneTime": 6619
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 325,
+      "scene": 46,
+      "sceneTime": 325
+     },
+     {
+      "isRoom": 0,
+      "room": 3,
+      "roomTime": 521,
+      "scene": 98,
+      "sceneTime": 521
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 1206,
+      "scene": 96,
+      "sceneTime": 1206
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 975,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 1257,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 173,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 1178,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 192,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 13,
+      "roomTime": 164,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 4,
+      "roomTime": 1333,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 227,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 2,
+      "roomTime": 1019,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 5,
+      "roomTime": 747,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 277,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 9,
+      "roomTime": 1785,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 10,
+      "roomTime": 434,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 3,
+      "roomTime": 840,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 12,
+      "roomTime": 394,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 9,
+      "roomTime": 277,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 844,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 480,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 27,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 116,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 8,
+      "roomTime": 733,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 7,
+      "roomTime": 817,
+      "scene": 1,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 16,
+      "roomTime": 1,
+      "scene": 1,
+      "sceneTime": 14295
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 2201,
+      "scene": 18,
+      "sceneTime": 2201
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 2835,
+      "scene": 96,
+      "sceneTime": 2835
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 1020,
+      "scene": 59,
+      "sceneTime": 1020
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 64,
+      "scene": 96,
+      "sceneTime": 64
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 238,
+      "scene": 97,
+      "sceneTime": 238
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 292,
+      "scene": 62,
+      "sceneTime": 292
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 327,
+      "scene": 97,
+      "sceneTime": 327
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 142,
+      "scene": 96,
+      "sceneTime": 142
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 134,
+      "scene": 59,
+      "sceneTime": 134
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 700,
+      "scene": 96,
+      "sceneTime": 700
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 400,
+      "scene": 59,
+      "sceneTime": 400
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 1066,
+      "scene": 96,
+      "sceneTime": 1066
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 410,
+      "scene": 82,
+      "sceneTime": 410
+     },
+     {
+      "isRoom": 0,
+      "room": 0,
+      "roomTime": 339,
+      "scene": 81,
+      "sceneTime": 339
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 1152,
+      "scene": 84,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 538,
+      "scene": 84,
+      "sceneTime": 1690
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 784,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 654,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 832,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 91,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 1,
+      "roomTime": 939,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 1,
+      "room": 0,
+      "roomTime": 90,
+      "scene": 88,
+      "sceneTime": 0
+     },
+     {
+      "isRoom": 0,
+      "room": 1,
+      "roomTime": 523,
+      "scene": 88,
+      "sceneTime": 3914
      }
     ],
     "scenesDiscovered": [
@@ -3793,16 +4584,21 @@
      0,
      0
     ],
-    "tsIdx": 96
+    "tsIdx": 209
    },
    "version": 1
   },
   "trackerData": {
    "data": {
-    "areasSpoiled": 4294967295,
+    "areasSpoiled": 0,
     "checkStatus": [
      {
       "randomizerCheck": 2,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 3,
       "skipped": false,
       "status": 5
      },
@@ -3813,6 +4609,11 @@
      },
      {
       "randomizerCheck": 13,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 14,
       "skipped": false,
       "status": 5
      },
@@ -3863,6 +4664,16 @@
      },
      {
       "randomizerCheck": 42,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 44,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 51,
       "skipped": false,
       "status": 5
      },
@@ -3957,6 +4768,61 @@
       "status": 5
      },
      {
+      "randomizerCheck": 194,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 207,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 208,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 209,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 210,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 211,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 212,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 213,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 214,
+      "skipped": false,
+      "status": 2
+     },
+     {
+      "randomizerCheck": 223,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 242,
+      "skipped": false,
+      "status": 5
+     },
+     {
       "randomizerCheck": 348,
       "skipped": false,
       "status": 5
@@ -3978,6 +4844,16 @@
      },
      {
       "randomizerCheck": 356,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 374,
+      "skipped": false,
+      "status": 5
+     },
+     {
+      "randomizerCheck": 383,
       "skipped": false,
       "status": 5
      }
